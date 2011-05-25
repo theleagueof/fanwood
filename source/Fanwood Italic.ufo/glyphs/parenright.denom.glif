@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.denom" format="1">
+  <advance width="201"/>
+  <outline>
+    <contour>
+      <point x="10" y="-99"/>
+      <point x="17" y="-103"/>
+      <point x="23" y="-103" type="curve" smooth="yes"/>
+      <point x="25" y="-103"/>
+      <point x="171" y="0"/>
+      <point x="171" y="190" type="curve" smooth="yes"/>
+      <point x="171" y="356"/>
+      <point x="36" y="499"/>
+      <point x="27" y="499" type="curve" smooth="yes"/>
+      <point x="18" y="499"/>
+      <point x="13" y="493"/>
+      <point x="13" y="488" type="curve" smooth="yes"/>
+      <point x="13" y="477"/>
+      <point x="124" y="387"/>
+      <point x="124" y="182" type="curve" smooth="yes"/>
+      <point x="124" y="1"/>
+      <point x="10" y="-91"/>
+      <point x="10" y="-94" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

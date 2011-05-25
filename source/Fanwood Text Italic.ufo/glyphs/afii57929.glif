@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii57929" format="1">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="384" y="494"/>
+      <point x="385" y="490"/>
+      <point x="389" y="490" type="curve" smooth="yes"/>
+      <point x="404" y="490" type="line" smooth="yes"/>
+      <point x="411" y="490"/>
+      <point x="415" y="501"/>
+      <point x="416" y="504" type="curve"/>
+      <point x="471" y="602" type="line"/>
+      <point x="476" y="612"/>
+      <point x="484" y="624"/>
+      <point x="484" y="638" type="curve" smooth="yes"/>
+      <point x="484" y="649"/>
+      <point x="477" y="664"/>
+      <point x="455" y="664" type="curve" smooth="yes"/>
+      <point x="434" y="664"/>
+      <point x="423" y="649"/>
+      <point x="418" y="630" type="curve" smooth="yes"/>
+      <point x="407" y="586"/>
+      <point x="384" y="503"/>
+      <point x="384" y="495" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

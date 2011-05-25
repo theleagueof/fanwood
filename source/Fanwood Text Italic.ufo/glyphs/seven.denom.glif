@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.denom" format="1">
+  <advance width="360"/>
+  <outline>
+    <contour>
+      <point x="56" y="305"/>
+      <point x="70" y="304"/>
+      <point x="74" y="304" type="curve" smooth="yes"/>
+      <point x="82" y="304"/>
+      <point x="84" y="310"/>
+      <point x="85" y="313" type="curve" smooth="yes"/>
+      <point x="94" y="343" type="line"/>
+      <point x="99" y="345"/>
+      <point x="130" y="347"/>
+      <point x="149" y="347" type="curve" smooth="yes"/>
+      <point x="282" y="347" type="line"/>
+      <point x="282" y="346" type="line" smooth="yes"/>
+      <point x="282" y="344"/>
+      <point x="280" y="343"/>
+      <point x="278" y="338" type="curve"/>
+      <point x="233" y="264"/>
+      <point x="88" y="47"/>
+      <point x="88" y="-4" type="curve" smooth="yes"/>
+      <point x="88" y="-17"/>
+      <point x="112" y="-22"/>
+      <point x="117" y="-22" type="curve" smooth="yes"/>
+      <point x="125" y="-22"/>
+      <point x="126" y="-14"/>
+      <point x="129" y="-7" type="curve"/>
+      <point x="151" y="55"/>
+      <point x="149" y="49"/>
+      <point x="183" y="114" type="curve" smooth="yes"/>
+      <point x="213" y="173"/>
+      <point x="334" y="381"/>
+      <point x="334" y="390" type="curve" smooth="yes"/>
+      <point x="334" y="400"/>
+      <point x="326" y="400"/>
+      <point x="321" y="400" type="curve" smooth="yes"/>
+      <point x="107" y="400" type="line"/>
+      <point x="108" y="403"/>
+      <point x="111" y="413"/>
+      <point x="111" y="417" type="curve" smooth="yes"/>
+      <point x="111" y="426"/>
+      <point x="96" y="427"/>
+      <point x="91" y="427" type="curve" smooth="yes"/>
+      <point x="82" y="427"/>
+      <point x="81" y="414"/>
+      <point x="79" y="405" type="curve" smooth="yes"/>
+      <point x="70" y="363"/>
+      <point x="56" y="324"/>
+      <point x="56" y="314" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb.cap" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-305" y="508" type="line" smooth="yes"/>
+      <point x="-305" y="498"/>
+      <point x="-305" y="496"/>
+      <point x="-295" y="496" type="curve" smooth="yes"/>
+      <point x="-104" y="496" type="line" smooth="yes"/>
+      <point x="-95" y="496"/>
+      <point x="-95" y="498"/>
+      <point x="-95" y="507" type="curve" smooth="yes"/>
+      <point x="-95" y="532" type="line" smooth="yes"/>
+      <point x="-95" y="540"/>
+      <point x="-97" y="542"/>
+      <point x="-104" y="542" type="curve" smooth="yes"/>
+      <point x="-295" y="542" type="line" smooth="yes"/>
+      <point x="-303" y="542"/>
+      <point x="-305" y="540"/>
+      <point x="-305" y="531" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

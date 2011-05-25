@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomp.cap" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-313" y="450"/>
+      <point x="-311" y="449"/>
+      <point x="-308" y="449" type="curve" smooth="yes"/>
+      <point x="-296" y="449" type="line" smooth="yes"/>
+      <point x="-295" y="449"/>
+      <point x="-292" y="452"/>
+      <point x="-287" y="455" type="curve" smooth="yes"/>
+      <point x="-202" y="507" type="line"/>
+      <point x="-198" y="510"/>
+      <point x="-198" y="511"/>
+      <point x="-194" y="507" type="curve"/>
+      <point x="-131" y="455" type="line"/>
+      <point x="-127" y="451"/>
+      <point x="-125" y="449"/>
+      <point x="-124" y="449" type="curve" smooth="yes"/>
+      <point x="-112" y="449" type="line" smooth="yes"/>
+      <point x="-108" y="449"/>
+      <point x="-107" y="450"/>
+      <point x="-107" y="451" type="curve" smooth="yes"/>
+      <point x="-107" y="452"/>
+      <point x="-107" y="453"/>
+      <point x="-109" y="456" type="curve"/>
+      <point x="-162" y="548" type="line" smooth="yes"/>
+      <point x="-168" y="558"/>
+      <point x="-168" y="559"/>
+      <point x="-178" y="559" type="curve" smooth="yes"/>
+      <point x="-198" y="559" type="line" smooth="yes"/>
+      <point x="-208" y="559"/>
+      <point x="-208" y="558"/>
+      <point x="-218" y="548" type="curve" smooth="yes"/>
+      <point x="-309" y="456" type="line" smooth="yes"/>
+      <point x="-312" y="453"/>
+      <point x="-313" y="452"/>
+      <point x="-313" y="451" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

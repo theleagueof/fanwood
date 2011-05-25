@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft.u" format="1">
+  <advance width="258"/>
+  <outline>
+    <contour>
+      <point x="50" y="313"/>
+      <point x="76" y="290"/>
+      <point x="105" y="263" type="curve" smooth="yes"/>
+      <point x="143" y="228"/>
+      <point x="183" y="187"/>
+      <point x="184" y="187" type="curve" smooth="yes"/>
+      <point x="186" y="187"/>
+      <point x="198" y="197"/>
+      <point x="198" y="199" type="curve" smooth="yes"/>
+      <point x="198" y="207"/>
+      <point x="136" y="306"/>
+      <point x="136" y="318" type="curve" smooth="yes"/>
+      <point x="136" y="330"/>
+      <point x="198" y="429"/>
+      <point x="198" y="437" type="curve" smooth="yes"/>
+      <point x="198" y="439"/>
+      <point x="186" y="449"/>
+      <point x="184" y="449" type="curve" smooth="yes"/>
+      <point x="183" y="449"/>
+      <point x="143" y="408"/>
+      <point x="105" y="373" type="curve" smooth="yes"/>
+      <point x="76" y="346"/>
+      <point x="50" y="323"/>
+      <point x="50" y="318" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

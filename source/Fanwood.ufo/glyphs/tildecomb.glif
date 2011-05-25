@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="-305" y="496"/>
+      <point x="-302" y="496"/>
+      <point x="-298" y="496" type="curve" smooth="yes"/>
+      <point x="-290" y="496"/>
+      <point x="-289" y="496"/>
+      <point x="-287" y="502" type="curve" smooth="yes"/>
+      <point x="-282" y="516"/>
+      <point x="-275" y="533"/>
+      <point x="-253" y="533" type="curve" smooth="yes"/>
+      <point x="-221" y="533"/>
+      <point x="-200" y="496"/>
+      <point x="-165" y="496" type="curve" smooth="yes"/>
+      <point x="-139" y="496"/>
+      <point x="-118" y="520"/>
+      <point x="-105" y="554" type="curve" smooth="yes"/>
+      <point x="-102" y="562"/>
+      <point x="-98" y="574"/>
+      <point x="-98" y="581" type="curve" smooth="yes"/>
+      <point x="-98" y="583"/>
+      <point x="-101" y="583"/>
+      <point x="-105" y="583" type="curve" smooth="yes"/>
+      <point x="-114" y="583"/>
+      <point x="-115" y="583"/>
+      <point x="-117" y="576" type="curve"/>
+      <point x="-123" y="561"/>
+      <point x="-131" y="541"/>
+      <point x="-153" y="541" type="curve" smooth="yes"/>
+      <point x="-179" y="541"/>
+      <point x="-210" y="579"/>
+      <point x="-241" y="579" type="curve" smooth="yes"/>
+      <point x="-257" y="579"/>
+      <point x="-281" y="562"/>
+      <point x="-297" y="524" type="curve" smooth="yes"/>
+      <point x="-300" y="517"/>
+      <point x="-305" y="503"/>
+      <point x="-305" y="498" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
