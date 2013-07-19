@@ -1,0 +1,16 @@
+{
+  "name": "fanwood-webfont",
+  "version": "1.0.0",
+  "ignore": [
+    "source/",
+    "images/",
+    "Fanwood Italic.otf",
+    "Fanwood Text Italic.otf",
+    "Fanwood Text.otf",
+    "Fanwood.otf"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Schniz/fanwood.git"
+  }
+}
