@@ -1,5 +1,12 @@
 ![Fanwood](https://github.com/theleagueof/fanwood/raw/master/images/fanwood-1.jpeg)
 
+Installation
+============
+
+Using [Bower](http://bower.io/)
+-------------------------------
+    bower install --save fanwood-webfont
+
 Fanwood
 ========
 _by [Barry Schwartz](http://www.crudfactory.com)_
