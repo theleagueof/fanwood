@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Fanwood Text';
   font-style: normal; /* Roman (Regular) */
-  src: url('fanwood_text-webfont.eot'),
+  src: url('fanwood_text-webfont.eot');
   src: url('fanwood_text-webfont.eot?#iefix') format('embedded-opentype'),
        url('fanwood_text-webfont.woff') format('woff'),
        url('fanwood_text-webfont.ttf')  format('truetype'),
@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Fanwood Text';
   font-style: italic;
-  src: url('fanwood_text_italic-webfont.eot'),
+  src: url('fanwood_text_italic-webfont.eot');
   src: url('fanwood_text_italic-webfont.eot?#iefix') format('embedded-opentype'),
        url('fanwood_text_italic-webfont.woff') format('woff'),
        url('fanwood_text_italic-webfont.ttf')  format('truetype'),
