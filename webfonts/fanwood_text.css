@@ -1,0 +1,29 @@
+/*
+  'Fanwood Text' (slightly darker and reduced in contrast)
+  https://www.theleagueofmoveabletype.com/fanwood
+
+  Copyright (c) 2011, Barry Schwartz <site-chieftain@crudfactory.com>,
+  with Reserved Font Name OFL "Fanwood".
+
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
+  http://scripts.sil.org/OFL
+*/
+@font-face {
+  font-family: 'Fanwood Text';
+  font-style: normal; /* Roman (Regular) */
+  src: url('fanwood_text-webfont.eot');
+  src: url('fanwood_text-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fanwood_text-webfont.woff') format('woff'),
+       url('fanwood_text-webfont.ttf')  format('truetype'),
+       url('fanwood_text-webfont.svg#FanwoodTextRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'Fanwood Text';
+  font-style: italic;
+  src: url('fanwood_text_italic-webfont.eot');
+  src: url('fanwood_text_italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fanwood_text_italic-webfont.woff') format('woff'),
+       url('fanwood_text_italic-webfont.ttf')  format('truetype'),
+       url('fanwood_text_italic-webfont.svg#FanwoodTextItalic') format('svg');
+}
