@@ -1,0 +1,130 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CAT;
+languagesystem latn CRT;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn TRK;
+
+#feature aalt {
+#  XX
+#} aalt;
+
+#feature aalt {
+#  XX
+#} aalt;
+
+lookup locl.CAT {
+  sub [L l] by [L.CAT l.CAT];
+} locl.CAT;
+
+#lookup locl.ROM {
+#  sub scedilla by uni0219;
+#  sub uni0163 by uni021B;
+#} locl.ROM;
+
+lookup locl.TRK {
+  sub i by i.TRK;
+} locl.TRK;
+
+feature locl {
+  script latn;
+  language CAT exclude_dflt;
+  lookup locl.CAT;
+#  language MOL exclude_dflt;
+#  lookup locl.ROM;
+#  language ROM exclude_dflt;
+#  lookup locl.ROM;
+  language AZE exclude_dflt;
+  lookup locl.TRK;
+  language CRT exclude_dflt;
+  lookup locl.TRK;
+  language TRK exclude_dflt;
+  lookup locl.TRK;
+} locl;
+
+@set1 = [a-z zero one two three four five six seven eight nine dollar cent comma period hyphen bracketleft bracketright parenleft parenright];
+@set1.numer = [a.numer-z.numer zero.numer one.numer two.numer three.numer four.numer five.numer six.numer seven.numer eight.numer nine.numer dollar.numer cent.numer comma.numer period.numer hyphen.numer bracketleft.numer bracketright.numer parenleft.numer parenright.numer];
+@set1.denom = [a.denom-z.denom zero.denom one.denom two.denom three.denom four.denom five.denom six.denom seven.denom eight.denom nine.denom dollar.denom cent.denom comma.denom period.denom hyphen.denom bracketleft.denom bracketright.denom parenleft.denom parenright.denom];
+@set1.sup = [a.sup-z.sup zero.sup one.sup two.sup three.sup four.sup five.sup six.sup seven.sup eight.sup nine.sup dollar.sup cent.sup comma.sup period.sup hyphen.sup bracketleft.sup bracketright.sup parenleft.sup parenright.sup];
+@set1.sub = [a.sub-z.sub zero.sub one.sub two.sub three.sub four.sub five.sub six.sub seven.sub eight.sub nine.sub dollar.sub cent.sub comma.sub period.sub hyphen.sub bracketleft.sub bracketright.sub parenleft.sub parenright.sub];
+
+lookup numer {
+  sub slash by fraction;
+  sub @set1 by @set1.numer;
+} numer;
+
+feature numr {
+  lookup numer;
+} numr;
+
+feature dnom {
+  sub @set1 by @set1.denom;
+} dnom;
+
+feature frac {
+  lookup numer;
+  sub [fraction @set1.denom] @set1.numer' by @set1.denom;
+} frac;
+
+feature sups {
+  sub @set1 by @set1.sup;
+} sups;
+
+feature subs {
+  sub @set1 by @set1.sub;
+} subs;
+
+lookup lining {
+  sub [zero one two three four five six seven eight nine] by [zero.u one.u two.u three.u four.u five.u six.u seven.u eight.u nine.u];
+} lining;
+
+feature lnum {
+  lookup lining;
+} lnum;
+
+feature pnum {
+  sub [zero one two three four five six seven eight nine] by [zero.p one.p two.p three.p four.p five.p six.p seven.p eight.p nine.p];
+} pnum;
+
+feature smcp {
+  sub [a-z aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde bdotaccent cacute ccaron ccedilla ccircumflex cdotaccent dcaron dcroat ddotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek eth fdotaccent gbreve gcircumflex gcommaaccent gdotaccent hbar hcircumflex hdotaccent iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde i.TRK jcircumflex kcommaaccent lacute lcaron l.CAT lcommaaccent ldot lslash mdotaccent nacute ncaron ncommaaccent ntilde oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde pdotaccent racute rcaron rcommaaccent sacute scaron scedilla scircumflex scommaaccent sdotaccent tbar tcaron tcedilla tcommaaccent tdotaccent thorn uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde wcircumflex yacute ycircumflex ydieresis zacute zcaron zdotaccent] by [a.sc-z.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc ae.sc agrave.sc amacron.sc aogonek.sc aring.sc atilde.sc bdotaccent.sc cacute.sc ccaron.sc ccedilla.sc ccircumflex.sc cdotaccent.sc dcaron.sc dcroat.sc ddotaccent.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc eogonek.sc eth.sc fdotaccent.sc gbreve.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc hbar.sc hcircumflex.sc hdotaccent.sc iacute.sc ibreve.sc icircumflex.sc idieresis.sc igrave.sc ij.sc imacron.sc iogonek.sc itilde.sc i.TRK.sc jcircumflex.sc kcommaaccent.sc lacute.sc lcaron.sc l.CAT.sc lcommaaccent.sc ldot.sc lslash.sc mdotaccent.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc oe.sc ograve.sc ohungarumlaut.sc omacron.sc oslash.sc otilde.sc pdotaccent.sc racute.sc rcaron.sc rcommaaccent.sc sacute.sc scaron.sc scedilla.sc scircumflex.sc scommaaccent.sc sdotaccent.sc tbar.sc tcaron.sc tcedilla.sc tcommaaccent.sc tdotaccent.sc thorn.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc wcircumflex.sc yacute.sc ycircumflex.sc ydieresis.sc zacute.sc zcaron.sc zdotaccent.sc];
+} smcp;
+
+feature c2sc {
+  sub [A-Z Aacute Abreve Acircumflex Adieresis AE Agrave Amacron Aogonek Aring Atilde Bdotaccent Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Ddotaccent Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Fdotaccent Gbreve Gcircumflex Gcommaaccent Gdotaccent Hbar Hcircumflex Hdotaccent Iacute Ibreve Icircumflex Idieresis Igrave IJ Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron L.CAT Lcommaaccent Ldot Lslash Mdotaccent Nacute Ncaron Ncommaaccent Ntilde Oacute Obreve Ocircumflex Odieresis OE Ograve Ohungarumlaut Omacron Oslash Otilde Pdotaccent Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent Thorn Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wcircumflex Yacute Ycircumflex Ydieresis Zacute Zcaron Zdotaccent ampersand] by [A.c2-Z.c2 Aacute.c2 Abreve.c2 Acircumflex.c2 Adieresis.c2 AE.c2 Agrave.c2 Amacron.c2 Aogonek.c2 Aring.c2 Atilde.c2 Bdotaccent.c2 Cacute.c2 Ccaron.c2 Ccedilla.c2 Ccircumflex.c2 Cdotaccent.c2 Dcaron.c2 Dcroat.c2 Ddotaccent.c2 Eacute.c2 Ebreve.c2 Ecaron.c2 Ecircumflex.c2 Edieresis.c2 Edotaccent.c2 Egrave.c2 Emacron.c2 Eogonek.c2 Eth.c2 Fdotaccent.c2 Gbreve.c2 Gcircumflex.c2 Gcommaaccent.c2 Gdotaccent.c2 Hbar.c2 Hcircumflex.c2 Hdotaccent.c2 Iacute.c2 Ibreve.c2 Icircumflex.c2 Idieresis.c2 Igrave.c2 IJ.c2 Imacron.c2 Iogonek.c2 Itilde.c2 Jcircumflex.c2 Kcommaaccent.c2 Lacute.c2 Lcaron.c2 L.CAT.c2 Lcommaaccent.c2 Ldot.c2 Lslash.c2 Mdotaccent.c2 Nacute.c2 Ncaron.c2 Ncommaaccent.c2 Ntilde.c2 Oacute.c2 Obreve.c2 Ocircumflex.c2 Odieresis.c2 OE.c2 Ograve.c2 Ohungarumlaut.c2 Omacron.c2 Oslash.c2 Otilde.c2 Pdotaccent.c2 Racute.c2 Rcaron.c2 Rcommaaccent.c2 Sacute.c2 Scaron.c2 Scedilla.c2 Scircumflex.c2 Scommaaccent.c2 Sdotaccent.c2 Tbar.c2 Tcaron.c2 Tcedilla.c2 Tcommaaccent.c2 Tdotaccent.c2 Thorn.c2 Uacute.c2 Ubreve.c2 Ucircumflex.c2 Udieresis.c2 Ugrave.c2 Uhungarumlaut.c2 Umacron.c2 Uogonek.c2 Uring.c2 Utilde.c2 Wcircumflex.c2 Yacute.c2 Ycircumflex.c2 Ydieresis.c2 Zacute.c2 Zcaron.c2 Zdotaccent.c2 ampersand.c2];
+} c2sc;
+
+feature hist {
+  sub s by longs;
+} hist;
+
+feature case {
+  lookup lining;
+  sub [afii00208 braceleft braceright bracketleft bracketright emdash endash figuredash guillemotleft guillemotright guilsinglleft guilsinglright hyphen parenleft parenright softhyphen uni2010 uni2011] by [afii00208.u braceleft.u braceright.u bracketleft.u bracketright.u emdash.u endash.u figuredash.u guillemotleft.u guillemotright.u guilsinglleft.u guilsinglright.u hyphen.u parenleft.u parenright.u softhyphen.u uni2010.u uni2011.u];
+  #sub uni00AD by uni00AD.u;
+} case;
+
+feature liga {
+  sub f f b by f_f_b;
+  sub f f h by f_f_h;
+  sub f f hcircumflex by f_f_hcircumflex;
+  sub f f i by f_f_i;
+  sub f f j by f_f_j;
+  sub f f k by f_f_k;
+  sub f f l by f_f_l;
+  sub f f thorn by f_f_thorn;
+  sub f b by f_b;
+  sub f f by f_f;
+  sub f h by f_h;
+  sub f hcircumflex by f_hcircumflex;
+  sub f i by f_i;
+  sub f j by f_j;
+  sub f k by f_k;
+  sub f l by f_l;
+  sub f thorn by f_thorn;
+  sub L.CAT periodcentered by Ldot;
+  sub L.CAT.c2 periodcentered by Ldot.c2;
+  sub l.CAT.sc periodcentered by ldot.sc;
+} liga;
