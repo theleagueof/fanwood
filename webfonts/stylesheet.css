@@ -1,0 +1,49 @@
+/* Regular */
+@font-face {
+    font-family: 'Fanwood';
+    src: url('fanwood-webfont.eot');
+    src: url('fanwood-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fanwood-webfont.woff') format('woff'),
+         url('fanwood-webfont.ttf') format('truetype'),
+         url('fanwood-webfont.svg#FanwoodRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Italic */
+@font-face {
+    font-family: 'Fanwood';
+    src: url('fanwood_italic-webfont.eot');
+    src: url('fanwood_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fanwood_italic-webfont.woff') format('woff'),
+         url('fanwood_italic-webfont.ttf') format('truetype'),
+         url('fanwood_italic-webfont.svg#FanwoodItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/* Text */
+@font-face {
+    font-family: 'Fanwood Text';
+    src: url('fanwood_text-webfont.eot');
+    src: url('fanwood_text-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fanwood_text-webfont.woff') format('woff'),
+         url('fanwood_text-webfont.ttf') format('truetype'),
+         url('fanwood_text-webfont.svg#FanwoodTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Text Italic */
+@font-face {
+    font-family: 'Fanwood Text Italic';
+    src: url('fanwood_text_italic-webfont.eot');
+    src: url('fanwood_text_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fanwood_text_italic-webfont.woff') format('woff'),
+         url('fanwood_text_italic-webfont.ttf') format('truetype'),
+         url('fanwood_text_italic-webfont.svg#FanwoodTextItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
