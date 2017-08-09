@@ -1,0 +1,19 @@
+/* Linden Hill */
+
+@font-face {
+	font-family: 'Linden Hill';
+	src: url('LindenHill-webfont.eot');
+	src: local('☺'), url('LindenHill-webfont.woff') format('woff'), url('LindenHill-webfont.ttf') format('truetype'), url('LindenHill-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Linden Hill Italic */
+
+@font-face {
+	font-family: 'Linden Hill Inline';
+	src: url('LindenHill-Italic-webfont.eot');
+	src: local('☺'), url('LindenHill-Italic-webfont.woff') format('woff'), url('LindenHill-Italic-webfont.ttf') format('truetype'), url('LindenHill-Italic-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
